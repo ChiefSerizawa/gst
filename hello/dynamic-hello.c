@@ -88,7 +88,7 @@ int main(int argc, char *argv[]) {
 					}
 				default:
 					// Should not be reached
-					g_printerr("Unexpected message received.\n");
+					//g_printerr("Unexpected message received.\n");
 					break;
 			}
 			gst_message_unref(msg);
